@@ -1,12 +1,3 @@
-
-
-**Welcome to the official documentation of **Farmassist** Work through to find more information about the project.**
-
-<br>
-
-![The preview image of the theme.](./.github/spruce-docs-preview-mockup-2.png)
-
-
 [![Github release](https://img.shields.io/github/v/release/conedevelopment/sprucecss-eleventy-documentation-template?color=2350f6&logo=github&logoColor=white&style=for-the-badge)](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT-2350f6?style=for-the-badge)](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/blob/main/LICENSE)
 
