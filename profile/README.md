@@ -4,9 +4,9 @@
 # Farmassist Overview
 
 <p align="center" style="display: ruby;">
-  <img src="../src/img/cover/app_icon.png" width=20% height=20%>
+  <img src="https://farmassist-doc.netlify.app/img/cover/app_icon.png" width=20% height=20%>
   <b> ====migration====> </b>
-  <img src="../src/img/cover/new_app_icon.jpg" width=20% height=20%>
+  <img src="https://farmassist-doc.netlify.app/img/cover/new_app_icon.jpg" width=20% height=20%>
 </p>
 
 ## Introduction
