@@ -1,114 +1,59 @@
-[![Github release](https://img.shields.io/github/v/release/conedevelopment/sprucecss-eleventy-documentation-template?color=2350f6&logo=github&logoColor=white&style=for-the-badge)](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/releases/latest)
-[![License](https://img.shields.io/badge/license-MIT-2350f6?style=for-the-badge)](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-2350f6?style=for-the-badge)](./LICENSE)
 
-A documentation template is always helpful. There are a lot of solutions to make one; we wanted to create our self-hosted version based on our favorite static site generator [Eleventy](https://www.11ty.dev/).
+# Farmassist Overview
 
-By structure, it is simple, with two levels and additional custom templates like [FAQ](./src/faq.md) and [Changelog](./src/changelog.md).
+## Introduction
 
-## Spruce CSS
+Farmassist is a cutting-edge smart farming solution designed to revolutionize agriculture by leveraging technology to optimize crop management, increase yields, and improve efficiency. With its comprehensive suite of features, Farmassist empowers farmers, agricultural enterprises, and researchers to make data-driven decisions and achieve sustainable agricultural practices.
 
-The Documentation is built on [Spruce CSS](https://sprucecss.com/), a small and customizable CSS framework. The main benefit of this is that you can use the Spruce UI components with dark mode and RTL support.
+## Key Features
 
-## Features
+### Streamlined Farm Management
 
-- Breadcrumb navigation built on [11ty Navigation Plugin](https://www.11ty.dev/docs/plugins/navigation/).
-- HTML minification in production mode.
-- Anchor headings.
-- Table of Content.
-- FAQ template.
-- Changelog template.
-- Static search integration with [pagefind](https://pagefind.app/).
-- Code highlighting.
-- RTL support.
-- Dark theme mode.
-- [svgIcon](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/blob/main/src/shortcodes/svg-icon.js) shortcode: render any SVG icon inline and add optional classes.
-- [markdownRenderer](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/blob/main/src/shortcodes/markdown-render.js): render any string (markdown) into HTML.
+- Easily track planting and harvesting data.
+- Access valuable agricultural news updates.
+- Make informed decisions about crops based on real-time insights.
 
-## Setup
+### Real-Time Sensor Monitoring
 
-1. **Clone the repository.**
+- Gain valuable insights into environmental conditions.
+- Monitor air humidity, soil moisture, temperature, pH, and salinity in real-time.
+- Receive alerts for abnormal sensor readings.
 
-2. **Install the dependencies.**
+### AI-Powered Plant Disease
 
-    In the `package.json` file, you will find all of the dependencies (and scripts) to install them using the following command:
+- Capture images of diseased plants and receive potential disease type suggestions.
+- Utilize both online and offline modes for disease detection.
+- Improve disease management and minimize crop losses.
 
-    ```shell
-    npm install
-    ```
+### Predictive Farm Management (Future Implementation)
 
-3. **Run the development mode**
+- Optimize planting and harvesting schedules.
+- Maximize agricultural yield with predictive analytics.
+- Improve operational efficiency and resource utilization.
 
-    To run the development mode, use the `npm script`.   This script will also watch for changes.
+## Architecture
 
-    ```shell
-    npm start
-    ```
+Farmassist is built upon a robust foundation of modern technologies, including cloud services and mobile app development frameworks. The architecture consists of multiple subsystems:
 
-4. **Run the production mode**
+- **Farm Management Subsystem:** Utilizes Cloud Firestore for efficient data storage and management. Integrates with external APIs for news updates and weather data.
+- **IoT Monitoring Subsystem:** Employs Firebase Realtime Database for real-time sensor data collection. Utilizes Cloud Functions for abnormality detection and push notifications.
+- **Plant Disease Detection Subsystem:** Implements both offline and online modes for disease detection using AI models and cloud-based image recognition APIs.
 
-    Before you go live, you should use the production script to compress the Sass files.
+## Benefits
 
-    ```shell
-    npm run prod
-    ```
+- Increase agricultural productivity and yield.
+- Reduce resource wastage and environmental impact.
+- Improve decision-making with real-time insights.
+- Enhance disease management and crop health.
+- Enable sustainable agricultural practices.
 
-You can find some more npm scripts in the [package.json](https://github.com/conedevelopment/sprucecss-eleventy-documentation-template/blob/main/package.json) that can be helpful.
+## Getting Started
 
-## Content Managment
+To start using Farmassist, simply sign up for an account on our platform or download the mobile app from the app store. Our intuitive interface and user-friendly design make it easy to get started and access the full range of features.
 
-Adding content to the template is easy as almost everything is in Eleventy.
+## Conclusion
 
-### The Basic Structure
+Farmassist is your trusted partner in modernizing agriculture and achieving sustainable farming practices. With its advanced technology and comprehensive features, Farmassist empowers farmers and agricultural enterprises to thrive in today's competitive agricultural landscape. Join us on the journey towards a more efficient, productive, and sustainable future for agriculture with Farmassist.
 
-Our base folder for the documentation pages is the `posts` folder. You must follow the folder structure, which means the `category` here. If you create a folder, you must make a list page with the same name as the folder. You must also create another `posts` folder under the `category` folder where your posts go. You must create the `posts.json` file that will parameter your `layout` and `permalink` values.
-
-### Eleventy Navigation
-
-The theme utilizes the [Eleventy Navigation plugin](https://www.11ty.dev/docs/plugins/navigation/), so you must explicitly set up the hierarchy. This is needed for the automatic sidebar navigation, the navigation order, and breadcrumb generation.
-
-### Other Pages
-
-To create simple pages, make a file directly under the `src` folder and configure it with the available front matter.
-
-## Structure
-
-```html
-spruecss-eleventy-documentation-template/
-├─ node_modules/
-├─ dist/
-├─ src/
-│  ├─ _data/
-│  ├─ _includes/
-│  ├─ css/
-│  ├─ filters/
-│  ├─ font/
-│  ├─ img/
-│  ├─ js/
-│  ├─ posts/
-│  ├─ scss/
-│  ├─ shortcodes/
-│  ├─ transforms/
-│  ├─ changelog.md
-│  ├─ faq.md
-│  ├─ index.md
-├─ .eleventy.js
-├─ package.json
-├─ README.md
-├─ ...
-
-```
-
-- **_data**: Some global data, like the name of your site and helpers like the active navigation element or current year.
-- **__includes**: All of the layout and partial templates.
-- **css**: The compiled CSS.
-- **filters**: The additional filters that you can use.
-- **font**: The custom fonts.
-- **img**: The static image files.
-- **posts**: The markdown contents.
-- **scss**: The Sass files.
-- **shortcodes**: The available shortcodes.
-- **transforms**: The transformations.
-
-<br>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b7560c95-7035-491b-8c3f-94c43bea761e/deploy-status)](https://app.netlify.com/sites/sprucecss-eleventy-documentation/deploys)
+>**NOTE:** You can access the page online through [Farmassist documentation]().

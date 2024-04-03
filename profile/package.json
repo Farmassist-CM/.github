@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "author": "gillemomeni",
   "main": ".eleventy.js",
+  "license": "MIT",
   "scripts": {
     "delete:dist": "del-cli --force dist",
     "eleventy:dev": "npx eleventy --serve",
