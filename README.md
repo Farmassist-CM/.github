@@ -3,9 +3,9 @@
 # Farmassist Overview
 
 <p align="center" style="display: ruby;">
-  <img src="/img/cover/app_icon.png" width=20% height=20%>
+  <img src="./src/img/cover/app_icon.png" width=20% height=20%>
   <b> ====migration====> </b>
-  <img src="/img/cover/new_app_icon.jpg" width=20% height=20%>
+  <img src="./src/img/cover/new_app_icon.jpg" width=20% height=20%>
 </p>
 
 ## Introduction
@@ -62,4 +62,4 @@ To start using Farmassist, simply sign up for an account on our platform or down
 
 Farmassist is your trusted partner in modernizing agriculture and achieving sustainable farming practices. With its advanced technology and comprehensive features, Farmassist empowers farmers and agricultural enterprises to thrive in today's competitive agricultural landscape. Join us on the journey towards a more efficient, productive, and sustainable future for agriculture with Farmassist.
 
->**NOTE:** You can access the page online through [Farmassist documentation]().
+>**NOTE:** You can access the page online through [Farmassist documentation](https://farmassist-doc.vercel.app).
