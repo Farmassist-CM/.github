@@ -1,6 +1,8 @@
 [![License](https://img.shields.io/badge/license-MIT-2350f6?style=for-the-badge)](./LICENSE)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a890bc62-3d47-4508-9606-4bca1d91c5b9/deploy-status)](https://app.netlify.com/sites/farmassist-doc/deploys)
 
+>**NOTE:** You can access the page online through [Farmassist documentation](https://farmassist-doc.netlify.app/).
+
 # Farmassist Overview
 
 <p align="center" style="display: ruby;">
@@ -62,5 +64,3 @@ To start using Farmassist, simply sign up for an account on our platform or down
 ## Conclusion
 
 Farmassist is your trusted partner in modernizing agriculture and achieving sustainable farming practices. With its advanced technology and comprehensive features, Farmassist empowers farmers and agricultural enterprises to thrive in today's competitive agricultural landscape. Join us on the journey towards a more efficient, productive, and sustainable future for agriculture with Farmassist.
-
->**NOTE:** You can access the page online through [Farmassist documentation](https://farmassist-doc.netlify.app/).
